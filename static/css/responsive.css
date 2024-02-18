@@ -1,0 +1,455 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .header-search {
+        padding: 15px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .mg {
+        margin: 0px 0px;
+    }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
+    }
+    .category-box.women-box {
+        display: none;
+    }
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+    .wish-box {
+        float: none;
+        margin: 0px 30px;
+        display: inline-block;
+    }
+    .menu-add {
+        display: none;
+    }
+    .category-box {
+        display: none;
+    }
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
+    }
+    .mean-container .mean-nav ul li li li a {
+        width: 100%;
+    }
+    .header-search {
+        padding: 15px 0px;
+    }
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+    }
+    .mean-container .sub-full.megamenu-categories ol li a {
+        padding: 5px 0px;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+    }
+    .menu-area-main {
+        height: 45px;
+        overflow-y: auto;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
+    }
+
+
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .titlepage h2::after {width: 58%;}
+    .about-box .titlepage h2::after {
+        width: 52%;
+right: -221px;
+    }
+    .Nursery-img .text-box h3 {padding: 111px 50px;}
+    .contact .titlepage h2::after {
+    left: -650px;
+width: 30%;
+   }
+
+.retailer_text { font-size: 50px; }
+#my_slider a.carousel-control-next { right: 420px; top: 110%;}
+#my_slider a.carousel-control-prev { left: 440px; top: 110%;}
+.image_main { width: 44%; bottom: 70px; }
+.see_text { font-size: 16px; padding-top: 50px; }
+.image_1 { height: 500px; }
+.image_0 { padding: 50px 50px 130px 50px; }
+.best_taital { width: 48%; }
+.lorem_text_1 {  padding-bottom: 30px; padding-top: 30px; }
+.what_text::after { width: 420px; }
+.newsletter_right { width: 38%; }
+
+
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-menu ul > li a {padding: 7px 6px ; }
+    .main-menu ul>li a { font-size: 14px;}
+
+
+    .banner-main .carousel-caption h1 {
+
+        font-size: 36px;
+        padding-top: 0px;
+    }
+    .banner-main .carousel-caption p {
+
+        margin-bottom: 7px;
+        display: none;
+    }
+    .main { width: 15%;}
+    .info_icon { min-width: 10%;}
+    #main_slider a.carousel-control-prev {
+    display: none;
+    }
+    .btn_main { margin-top: 58px; width: 65%;}
+    #main_slider a.carousel-control-next {
+    display: none;
+    }
+    .sporrt_text { margin-top: 0px; font-size: 24px;}
+    .email_btn { padding: 41px;}
+    .btn-primary {max-width: 144px; }
+    .titlepage h2::after {width: 79%;}
+    .about-box .titlepage h2::after {width: 73%;
+       right: -88px;
+    }
+    .contact .titlepage h2::after {
+        left: -403px;
+        width: 41%;
+    }
+    .paddimg-right {
+        padding-right: 15px;
+    }
+    .paddimg-left {
+         padding-left: 15px;
+    }
+
+.logo { width: 100%; }
+.header_section { background-size: cover; }
+.toggle_menu { top: 5px;}
+.padding_left_0 { padding-left: 15px; }
+.retailer_text { font-size: 20px; }
+.btn_main { width: 100%; } 
+.contact_bt { width: 140px; margin-left: 10px; }
+.contact_bt { width: 140px; margin-left: 10px; }
+.more_bt { width: 140px; }
+.image_1 { padding-top: 30px; width: 100%; height: auto; }
+.image_main { width: 50%; bottom: 70px; }
+.see_text { font-size: 14px; padding-top: 50px; }
+.image_0 { padding: 50px 50px 130px 50px; }
+.what_text { font-size: 30px; }
+.what_text::after { width: 200px; height: 1px; top: 25px; }
+.advisor_section { padding-top: 0px; }
+.advisor_section_2 { padding-top: 0; }
+.box_main { margin-top: 70px; }
+.image_8 { padding-top: 15px; height: 280px; }
+.lorem_text { margin-top: 0px; font-size: 14px; }
+.portfolio_section_2 { background-size: cover; }
+.best_taital { width: 88%; font-size: 40px; }
+.best_text { width: 100%; font-size: 14px; }
+.get_bt { width: 170px; }
+.consulting_section_2 { padding-top: 20px; }
+.lorem_text_1 {  padding-bottom: 30px; padding-top: 0px; margin: 0px; font-size: 14px; }
+.client_section_2 { padding-top: 20px; }
+.categories_text { font-size: 40px; }
+.dummy_text { font-size: 16px; }
+.email_box { width: 100%; }
+.send_bt { width: 150px; }
+.social_icon li { padding-left: 18px;} 
+.newsletter_right { width: 24%; }
+.subscribe_bt { width: 150px; }
+.image { height: 170px; }
+#my_slider a.carousel-control-next { right: 330px; top: 117%;}
+#my_slider a.carousel-control-prev { left: 440px; top: 117%;}
+
+
+
+
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .last {display: none;}
+    .banner-main .carousel-caption {top: 0%;}
+.titlepage h2 {
+font-size: 42px;
+display: block; 
+}
+#main_slider a.carousel-control-prev {
+    position: absolute;
+    left: 25%;
+    top: 64%;
+    display: none;
+}
+.btn_main { margin-top: 58px; width: 80%;}
+#main_slider a.carousel-control-next {
+    position: absolute;
+    left: 50px;
+    top: 64%;
+    display: none;
+}
+.btn-primary {
+    margin-top: 0px;
+    margin-left: -7px;
+}
+
+.banner-main .carousel-caption h1 {
+    font-size: 50px;
+}
+.titlepage h2::after {
+width: 88%;
+}
+
+.about-box .titlepage h2::after {width: 45%;
+right: -281px;}
+.sporrt_text { margin-top: 0px;}
+.Nursery-img .text-box h3 {
+font-size: 36px;
+padding: 126px 40px;
+}
+.main {
+    width: 20%;}
+
+.contact .titlepage h2::after {
+    left: -234px;
+    width: 55%;
+}
+
+
+.logo { width: 40%; }
+.header_section { background-size: cover; padding-bottom: 0px; padding-top: 20px; }
+.toggle_menu { top: -23px;}
+.padding_left_0 { padding-left: 15px; }
+.retailer_text { font-size: 20px; }
+.btn_main { width: 100%; } 
+.contact_bt { width: 140px; margin-left: 10px; }
+.contact_bt { width: 140px; margin-left: 10px; }
+.more_bt { width: 140px; }
+.image_1 { padding-top: 30px; width: 100%; height: auto; }
+.image_main { display: none; }
+.what_text { font-size: 30px; }
+.what_text::after { width: 200px; height: 1px; top: 25px; }
+.advisor_section { padding-top: 90px; }
+.advisor_section_2 { padding-top: 0; }
+.box_main { margin-top: 70px; }
+.image_8 { padding-top: 15px; height: 280px; }
+.lorem_text { margin-top: 0px; font-size: 14px; }
+.portfolio_section_2 { background-size: cover; }
+.best_taital { width: 88%; font-size: 40px; }
+.best_text { width: 100%; font-size: 14px; }
+.get_bt { width: 170px; }
+.consulting_section_2 { padding-top: 20px; }
+.lorem_text_1 {  padding-bottom: 30px; padding-top: 0px; margin: 0px; font-size: 14px; }
+.client_section_2 { padding-top: 20px; }
+.categories_text { font-size: 40px; }
+.dummy_text { font-size: 16px; }
+.email_box { width: 100%; }
+.send_bt { width: 150px; }
+.social_icon li { padding-left: 18px;} 
+.subscribe_bt { width: 150px; }
+.image { height: 170px; }
+
+
+
+
+
+} 
+
+
+@media (max-width: 575px) {
+    .last { display: none; }
+    .carousel-caption {display: none;} 
+.header { padding-top: 0px; }
+.btn-primary {max-width: 126px;
+margin-right: 2px;
+font-size: 14px;}
+.banner-main .carousel-caption h1 {font-size: 30px; line-height: 38px;}
+.titlepage h2 {
+    font-size: 27px;
+}
+.sporrt_text{ 
+     font-size: 23px; 
+     margin-top: 0px;
+}
+.main {
+    width: 100%;
+}
+
+
+#main_slider a.carousel-control-prev {
+    position: absolute;
+    left: 175px;
+    top: 90%;
+    display: none;
+}
+
+#main_slider a.carousel-control-next {
+    position: absolute;
+    left: 236px;
+    top: 90%;
+    display: none;
+}
+
+.titlepage h2::after {
+    width: 93%;
+}
+    .about-box .titlepage h2::after {
+        width: 238px;
+        right: -50px;
+    }
+ .Gallery .titlepage h2 {
+    font-size: 47px;
+ }
+    .Gallery .titlepage h2::after {
+        width: 89%;
+    }
+
+    .paddimg-right {
+    padding-right: 15px;
+}
+.paddimg-left {
+    padding-left: 15px;
+}
+.Nursery-img .text-box h3 {
+font-size: 23px;
+padding: 30px 14px;
+
+}
+
+.contact .titlepage h2::after {
+
+    left: -8px;
+    width: 281px;
+}
+.footer .headinga span {
+font-size: 16px;
+
+}
+.menu-bottom {
+    margin-bottom: 45px;
+}
+ul.link li {
+
+    padding: 8px 12px;
+    padding-bottom: 0px; 
+}
+
+.logo { width: 40%; }
+.header_section { background-size: cover; padding-bottom: 0px; padding-top: 20px; }
+.toggle_menu { top: -23px;}
+.padding_left_0 { padding-left: 15px; }
+.retailer_text { font-size: 20px; }
+.btn_main { width: 100%; } 
+.contact_bt { width: 140px; margin-left: 10px; }
+.contact_bt { width: 140px; margin-left: 10px; }
+.more_bt { width: 140px; }
+.image_1 { padding-top: 30px; width: 100%; height: auto; }
+.image_main { display: none; }
+.what_text { font-size: 23px; }
+.what_text::after { display: none; }
+.advisor_section { padding-top: 90px; }
+.advisor_section_2 { padding-top: 0; }
+.box_main { margin-top: 70px; }
+.about_section .row { flex-direction: column-reverse; }
+.image_8 { padding-top: 30px; }
+.portfolio_section_2 { background-size: cover; }
+.best_taital { width: 100%; font-size: 26px; }
+.best_text { width: 100%; font-size: 14px; }
+.get_bt { width: 170px; }
+.consulting_section_2 .row { flex-direction: column-reverse; }
+.consulting_section_2 { padding-top: 20px; }
+.lorem_text_1 {  padding-bottom: 30px; padding-top: 20px; }
+.client_section_2 { padding-top: 20px; }
+.categories_text { font-size: 28px; }
+.dummy_text { font-size: 14px; }
+.email_box { width: 100%; }
+.send_bt { width: 150px; }
+.newsletter_right { width: 100%; } 
+.social_icon li { padding-right: 20px; padding-left: 0px;} 
+.subscribe_bt { width: 150px; }
+
+}
