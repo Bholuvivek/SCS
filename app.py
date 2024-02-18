@@ -11,7 +11,7 @@ app.config['MAIL_PORT'] = 587  # Change the port if needed
 app.config['MAIL_USE_TLS'] = True  # Enable Transport Layer Security (TLS)
 app.config['MAIL_USERNAME'] = 'scsavailable@gmail.com'  # Your email address
 app.config['MAIL_PASSWORD'] ='hjas zyfg ggxu vaax' #ieqq hrdz ioss nklh''  # Your email password or app-specific password
-app.config['MAIL_DEFAULT_SENDER'] = 'Client@gmail.com'  # Your default sender email address
+app.config['MAIL_DEFAULT_SENDER'] = 'scsavailable@gmail.com'  # Your default sender email address
 
 
 mail = Mail(app)
