@@ -1,6 +1,7 @@
 Flask
 Gunicorn
 Frozen-Flask
+flask_mail
 Click
 itsdangerous
 Jinja2
