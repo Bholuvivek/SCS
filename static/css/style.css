@@ -810,10 +810,25 @@ textarea#comment::placeholder {
     margin-bottom: 30px;
 }
 .send_bt {
-    width: 190px;
+    width: 400px;
     margin: 0 auto;
     text-align: center;
+    
 }
+.send_bt button{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #0cb1d6;
+    font-size: larger;
+    font-weight: bolder;
+     
+}
+.send_bt button:hover{
+    
+    background-color: #15e107;
+}
+
 .send_bt a {
     width: 100%;
     float: left;
