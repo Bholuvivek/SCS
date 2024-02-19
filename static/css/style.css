@@ -988,3 +988,34 @@ input.mail_bt::placeholder {
 .margin_top{
     margin-top: 90px;
 }
+
+/* Media query for screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+
+    .logo {
+        width: 30px; 
+    }
+    
+    .padding_left_0 {
+        padding-left: 20px; 
+    }
+    
+  
+    
+    .image_1 {
+        height: auto; 
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+  
+    .logo {
+        width: 40px;
+    }
+    
+    .padding_left_0 {
+        padding-left: 10px; 
+    }   
+ 
+}
