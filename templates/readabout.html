@@ -32,36 +32,35 @@
  </head>
 <body>
   <!--header section start -->
-    <div class="header_section background_bg">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="logo"><a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='images/logo.jpg') }}"></a>
-          </div>
-          <div class="col-md-9">
-            <div class="menu_text">
-              <ul>
-                <div id="myNav" class="overlay">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="overlay-content">
-                  <a href="{{ url_for('index') }}">Home</a>
-                  <a href="{{ url_for('blog') }}">Blog</a>
-                  <a href="{{ url_for('about') }}">About</a>
-                  <a href="{{ url_for('services') }}">Services</a>
-                  <a href="{{ url_for('client') }}">Client</a>
-                  <a href="{{ url_for('contact') }}">Contact Us</a>
-              </div>
-                </div>
-                <span class="navbar-toggler-icon"></span>
-                <span onclick="openNav()"><img src="{{ url_for('static', filename='images/toogle-icon.png') }}" class="toggle_menu"></span>
-                </div>  
-                </li>
-              </ul>
+  <div class="header_section background_bg">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="logo"><a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='images/logo.jpg') }}"></a></div>
+        </div>
+        <div class="col-md-9">
+          <div class="menu_text">
+            <ul>
+              <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+                <a href="{{ url_for('index') }}">Home</a>
+                <a href="{{ url_for('blog') }}">Blog</a>
+                <a href="{{ url_for('about') }}">About</a>
+                <a href="{{ url_for('services') }}">Services</a>
+                <a href="{{ url_for('client') }}">Client</a>
+                <a href="{{ url_for('contact') }}">Contact Us</a>
             </div>
+              </div>
+              <span class="navbar-toggler-icon"></span>
+              <span onclick="openNav()"><img src="{{ url_for('static', filename='images/toogle-icon.png') }}" class="toggle_menu"></span>
+              </div>  
+              </li>
+            </ul>
           </div>
         </div>
-    </div>
-
+      </div>
+  </div>
     <main>
         <section id="mission">
             <h2>Mission Statement</h2>
